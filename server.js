@@ -23,7 +23,7 @@ app.post("/sendrequest", function(req,res){
   res.redirect(whatsapplink+messege);
 })
 
-app.listen(3000,'192.168.0.19', function(){
+app.listen(2000,'192.168.0.19', function(){
   console.log("Server is running on port 3000");
 });
 //3000,"192.168.1.12"
